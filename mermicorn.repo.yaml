@@ -1,0 +1,41 @@
+schema_version: "1.0"
+
+id: mermicorn-grove
+display_name: Mermicorn Grove
+lane: identity-governance
+owner: cherry
+status: foundation
+visibility: public
+
+purpose:
+  problem: Provide the canonical registry, architecture, and integration map so the constellation stays coherent without centralizing product ownership.
+  audience:
+    - Cherry
+    - collaborators
+    - future employers reviewing the portfolio
+
+capabilities:
+  - constellation.registry
+  - architecture.document
+  - status.track
+  - integration.map
+
+shared_services:
+  boot: mermicorn-mega-boot
+  memory: mermicorn-memory
+  token_efficiency: mermicorn-token-saver
+  graphics: mermicorn-graphic-ai
+  commerce: mermicorn-commerce-ai
+
+data_policy:
+  public:
+    - registry
+    - architecture
+    - status
+    - roadmaps
+  private:
+    - internal decision logs
+
+first_proof:
+  artifact: master-manifest-and-status-board
+  status: in-progress
