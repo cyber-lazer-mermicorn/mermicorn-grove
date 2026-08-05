@@ -1,8 +1,263 @@
-PROPRIETARY
+MERMICORN GROVE PROPRIETARY LICENSE AND RIGHTS RESERVATION
+Version 1.0 — Effective 2026-08-05
 
-Copyright (c) 2026 Cherry | Cyber Lazer Mermicorn
+Copyright © 2026 Cherry | Cyber Lazer Mermicorn
 All rights reserved.
 
-No license to use, copy, modify, merge, publish, distribute, sublicense, or sell is granted except by prior written agreement.
+================================================================================
+IMPORTANT NOTICE
+================================================================================
+This document is a rights reservation and limited-license instrument for original
+works in the Mermicorn Grove constellation. It is not a grant of open-source
+rights. It is not legal advice. Cherry should have qualified counsel in Hawaiʻi
+(or other relevant jurisdiction) review and customize this instrument before
+relying on it for high-stakes commercial or enforcement use. Registration of
+copyright with the U.S. Copyright Office strengthens remedies; consider it for
+material works.
 
-Collaboration inquiries are welcome and considered case-by-case.
+================================================================================
+1. OWNER AND WORKS COVERED
+================================================================================
+1.1 Owner. The copyright owner of the original works described herein is Cherry
+    (operating publicly as Cyber Lazer Mermicorn) ("Owner").
+
+1.2 Covered Works. This instrument covers all original works of authorship
+    created by or for Owner in connection with the Mermicorn Grove, including
+    without limitation:
+    (a) source code, object code, scripts, schemas, templates, and tooling;
+    (b) documentation, contracts, READMEs, architecture, and process materials;
+    (c) designs, concepts, mockups, tech packs, product packaging, and campaign
+        assets (including ravewear and other creative collections);
+    (d) commercial workflows, listing systems, pricing frameworks, and sales
+        packages;
+    (e) data models, prompts, agent configurations, and AI-assisted outputs
+        directed by Owner;
+    (f) branding, names, logos, and trade dress originated by Owner;
+    (g) any other fixed original expression in the constellation repositories
+        and related private materials.
+
+1.3 Third-Party Materials. Third-party software, trademarks, game properties,
+    marketplace platforms, and libraries remain the property of their respective
+    owners. Fan or reference material is unaffiliated unless expressly stated.
+    This instrument does not claim ownership of third-party rights.
+
+================================================================================
+2. LEGAL BASIS — RESERVATION OF RIGHTS
+================================================================================
+2.1 U.S. Copyright. Under Title 17 of the United States Code, including
+    17 U.S.C. § 106, Owner holds the exclusive rights to reproduce, prepare
+    derivative works, distribute copies, publicly perform, and publicly display
+    the Covered Works (subject to statutory limitations such as fair use under
+    § 107 and, where applicable, § 117 regarding computer programs).
+
+2.2 Automatic Protection. Copyright protection attaches upon fixation of an
+    original work in a tangible medium. Notice and the phrase "All rights
+    reserved" are not required for protection under current U.S. law, but are
+    used here for clarity and to defeat claims of implied license.
+
+2.3 Reservation. ALL RIGHTS NOT EXPRESSLY GRANTED IN A SEPARATE WRITTEN
+    INSTRUMENT SIGNED BY OWNER ARE RESERVED TO OWNER. Public availability of
+    repositories or documents does not constitute a license to copy, modify,
+    distribute, commercialize, or create derivative works beyond ordinary
+    viewing and linking permitted by platform terms and applicable law.
+
+2.4 No Implied License. Access to public GitHub content, reading documentation,
+    or cloning for personal inspection does not grant any license beyond what
+    GitHub’s terms and applicable law already allow. No license is granted by
+    estoppel, course of dealing, or silence.
+
+================================================================================
+3. DEFAULT POSITION — NO GENERAL LICENSE
+================================================================================
+3.1 Default. Except as set forth in Section 4 (Limited Public Viewing) or in a
+    separate written agreement signed by Owner, no person or entity is granted
+    any license under this instrument to:
+    (a) copy, reproduce, or mirror the Covered Works (except ephemeral copies
+        incidental to ordinary viewing);
+    (b) modify, adapt, translate, or create derivative works;
+    (c) distribute, publish, sublicense, sell, lease, or otherwise transfer;
+    (d) reverse engineer, decompile, disassemble, or attempt to derive source
+        code or underlying methods except to the limited extent such activity
+        cannot be prohibited by applicable law;
+    (e) remove, alter, or obscure copyright, trademark, or proprietary notices;
+    (f) use the Covered Works for commercial purposes, training of competing
+        commercial systems, or public redistribution;
+    (g) use Owner’s names, marks, or trade dress in a manner that suggests
+        endorsement or affiliation without prior written consent.
+
+3.2 Software Specific. Where Covered Works include software, Owner does not
+    transfer ownership of any copy. Licensee (if any under a separate agreement)
+    receives only the limited rights expressly stated in that agreement. Owner
+    retains title to all copies.
+
+================================================================================
+4. LIMITED PUBLIC VIEWING
+================================================================================
+4.1 Viewing. Members of the public may view public repository content on GitHub
+    (or successor platforms) for informational and portfolio-evaluation purposes,
+    subject to the platform’s terms of service and applicable law.
+
+4.2 No Further Rights. Viewing does not authorize downloading for redistribution,
+    incorporation into other products, commercial exploitation, or training of
+    models for commercial competing products without a separate written license.
+
+4.3 Fair Use. Nothing in this instrument limits rights that cannot be waived
+    under applicable law, including fair use under 17 U.S.C. § 107.
+
+================================================================================
+5. COLLABORATION AND LICENSING PROCESS
+================================================================================
+5.1 Open to Discussion. Owner welcomes collaboration, contribution, partnership,
+    and selective licensing discussions.
+
+5.2 Required Form. Any grant of rights beyond Section 4 must be in a separate
+    written instrument signed by Owner (or Owner’s authorized agent) that states:
+    (a) the specific Covered Works;
+    (b) the exact rights granted (and those reserved);
+    (c) territory, term, exclusivity, and compensation if any;
+    (d) confidentiality, attribution, and termination terms;
+    (e) ownership of improvements and feedback.
+
+5.3 Inbound Contributions. If Owner accepts a contribution from a third party,
+    that contribution must be accompanied by an assignment or license sufficient
+    for Owner to incorporate it under this instrument. Unsolicited contributions
+    do not create joint ownership unless Owner agrees in writing.
+
+5.4 Feedback. Suggestions, ideas, or feedback provided to Owner may be used by
+    Owner without obligation or compensation, and Owner may own resulting
+    implementations, unless a prior written agreement states otherwise.
+
+================================================================================
+6. CONFIDENTIALITY AND PRIVATE MATERIALS
+================================================================================
+6.1 Private Repositories and Vaults. Materials marked private, held in private
+    repositories, or stored in designated vaults are confidential. Unauthorized
+    access, disclosure, or use is prohibited.
+
+6.2 Secrets. Credentials, API keys, payment data, personal data, and unpublished
+    commercial records must not appear in public repositories and remain under
+    separate security and privacy controls.
+
+================================================================================
+7. TRADEMARKS AND BRANDING
+================================================================================
+7.1 Marks. "Cyber Lazer Mermicorn," "Mermicorn Grove," related logos, and trade
+    dress originated by Owner are proprietary identifiers. No trademark license
+    is granted by this instrument.
+
+7.2 No Confusion. Third parties may not use Owner’s marks in a way likely to
+    cause confusion as to source, sponsorship, or affiliation.
+
+================================================================================
+8. CREATIVE AND COMMERCIAL WORKS
+================================================================================
+8.1 Designs and Collections. Original fashion, ravewear, and product design
+    concepts, mockups, and packages remain Owner’s exclusive property until and
+    unless transferred by written agreement.
+
+8.2 Production Partners. Manufacturers, sewers, and vendors receive only the
+    limited rights needed to perform under their separate agreements. Production
+    capacity is partnered; Owner does not claim in-house manufacturing unless
+    stated.
+
+8.3 AI-Assisted Assets. Outputs generated with AI tools under Owner’s direction
+    remain subject to Owner’s rights to the fullest extent permitted by law.
+    Tool provider terms may impose additional conditions; those do not expand
+    third-party rights in Owner’s directed works beyond those terms.
+
+================================================================================
+9. DISCLAIMER OF WARRANTIES
+================================================================================
+THE COVERED WORKS ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+OWNER DOES NOT WARRANT THAT THE COVERED WORKS WILL BE ERROR-FREE, UNINTERRUPTED,
+OR SUITABLE FOR ANY PARTICULAR USE.
+
+================================================================================
+10. LIMITATION OF LIABILITY
+================================================================================
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, OWNER SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES,
+OR ANY LOSS OF PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO THE
+COVERED WORKS OR THIS INSTRUMENT, WHETHER IN CONTRACT, TORT, OR OTHERWISE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OWNER’S TOTAL LIABILITY
+FOR ANY CLAIM ARISING OUT OF THE COVERED WORKS SHALL NOT EXCEED ONE HUNDRED
+U.S. DOLLARS (US $100), EXCEPT WHERE LIABILITY CANNOT BE LIMITED BY LAW.
+
+================================================================================
+11. TERMINATION
+================================================================================
+11.1 Any limited permission under Section 4 or under a separate written license
+     terminates automatically upon material breach of this instrument or of that
+     license, or upon written notice from Owner.
+
+11.2 Upon termination, the affected party must cease use of the Covered Works
+     and destroy or return copies in their possession, except for copies required
+     to be retained by law.
+
+11.3 Sections 1–3, 6–10, 12–14 survive termination.
+
+================================================================================
+12. GOVERNING LAW AND VENUE
+================================================================================
+12.1 Governing Law. This instrument is governed by the laws of the State of
+     Hawaiʻi and applicable United States federal law (including the Copyright
+     Act), without regard to conflict-of-law principles that would require
+     application of another jurisdiction’s laws.
+
+12.2 Venue. Subject to Section 12.3, exclusive venue for disputes arising under
+     this instrument lies in the state or federal courts located in the First
+     Circuit, City and County of Honolulu, State of Hawaiʻi.
+
+12.3 Escalation. Before filing suit, the parties shall attempt good-faith
+     informal resolution, then mediation in Honolulu, Hawaiʻi, unless Owner
+     elects to proceed directly for urgent injunctive relief to protect IP.
+
+12.4 Injunctive Relief. Owner may seek temporary, preliminary, or permanent
+     injunctive relief in any court of competent jurisdiction to prevent
+     ongoing or threatened infringement or misappropriation, without waiving
+     the venue provisions for other claims.
+
+================================================================================
+13. GENERAL
+================================================================================
+13.1 Severability. If any provision is held unenforceable, the remainder continues
+     in effect, and the unenforceable provision shall be modified to the minimum
+     extent necessary to make it enforceable.
+
+13.2 No Waiver. Failure to enforce any provision is not a waiver of future
+     enforcement.
+
+13.3 Entire Instrument. This instrument, together with any separate written
+     license signed by Owner, constitutes the entire statement of rights for the
+     Covered Works as against the public. Platform terms (e.g., GitHub) apply to
+     platform use but do not expand substantive IP licenses beyond this instrument.
+
+13.4 Amendments. Owner may update this instrument by publishing a new version
+     in the canonical repository (mermicorn-grove). Continued public availability
+     after notice constitutes the updated terms for future viewing; prior
+     separate written licenses remain governed by their own terms.
+
+13.5 Notices. Notices to Owner regarding this instrument should be sent through
+     channels designated on the Cyber Lazer Mermicorn profile or mermicorn-grove
+     repository, and by any formal method Owner publishes.
+
+13.6 Export and Sanctions. Users are responsible for compliance with applicable
+     export control and sanctions laws.
+
+13.7 Relationship to Individual Repositories. Individual repositories may include
+     a short NOTICE pointing to this instrument as the controlling rights text.
+     In case of conflict, this instrument controls unless a later signed agreement
+     expressly supersedes it for specific works.
+
+================================================================================
+14. CONTACT FOR LICENSING AND COLLABORATION
+================================================================================
+Collaboration, contribution, and licensing inquiries are welcome.
+Contact via the public profile and repository channels for Cyber Lazer Mermicorn.
+No license is granted by inquiry alone.
+
+================================================================================
+END OF INSTRUMENT
+================================================================================
