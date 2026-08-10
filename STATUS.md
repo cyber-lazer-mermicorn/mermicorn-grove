@@ -1,24 +1,14 @@
 # Status
 
-**State:** FOUNDATION  
-**Last updated:** 2026-08-05
+**State:** OPERATING / hardening  
+**Last updated:** 2026-08-09
 
-## Wave Progress
-| Wave | Repos | Status |
-|------|-------|--------|
-| 1 — Statement | 8 (incl. private-ops) | Opened + foundation in progress |
-| 2 — Who Cherry Is | 4 | Opened + foundation started |
-| 3 — Depth | 3 | Opened |
+## Truth
+- 16 public + 2 private repos
+- P0 hygiene applied on `mermicorn-commerce-ai` (DBs + `.env.ai` removed from main; gitignore hardened)
+- Pin/scope rules in `docs/PIN_AND_SCOPE.md`
 
-## First Proof Artifacts
-| Artifact | Repo | Status |
-|----------|------|--------|
-| Master manifest + cross-link library | mermicorn-grove | In progress |
-| One-command scaffold | mermicorn-mega-boot | Planned |
-| Before/after compression test | mermicorn-token-saver | Planned |
-| Visual asset pack (one ravewear concept) | mermicorn-graphic-ai | Planned |
-| One product → multichannel package | mermicorn-commerce-ai | Planned |
-| Drop 001 three-look capsule | cherry-ravewear-studio | Planned |
-| Honolulu-origin comparison | cherry-travel-deal-lab | Planned |
-| One coin end-to-end | cherry-numismatic-auction-lab | Planned |
-| One vehicle sales packet | cherry-auto-matchmaker | Planned |
+## Not done
+- History rewrite for purged blobs (optional, local with write access)
+- Wiki disable across public repos (manual settings)
+- Ravewear `assets/` still absent — package remains mockup_draft until assets land
