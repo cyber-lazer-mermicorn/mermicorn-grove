@@ -1,6 +1,15 @@
-# Core dependencies
-# (none required for base functionality)
+# Grove — Python dependencies
+# Used by: tools/validate_constellation.py
+
+# YAML parsing
+PyYAML>=6.0
+
+# JSON Schema validation
+jsonschema>=4.20
+
+# GitHub API calls
+requests>=2.31
 
 # Development
-pytest>=7.0
-ruff>=0.1.0
+pytest>=8.0
+ruff>=0.5.0

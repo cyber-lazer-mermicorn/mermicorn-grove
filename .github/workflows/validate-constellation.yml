@@ -1,0 +1,63 @@
+# validate-constellation.yml
+# Validates mermicorn.repo.yaml schema compliance across all constellation repos.
+# Runs on every push to main and nightly at 08:00 UTC.
+# Fails CI if any repo is invalid or missing its yaml.
+
+name: Validate Constellation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'schemas/**'
+      - 'tools/validate_constellation.py'
+      - 'mermicorn.repo.yaml'
+  schedule:
+    # Nightly check — catches drift in other repos that don't push to Grove
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'Single repo to validate (leave blank for all)'
+        required: false
+        default: ''
+
+jobs:
+  validate:
+    name: Validate constellation repos
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout Grove
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate all repos
+        if: ${{ github.event.inputs.repo == '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/validate_constellation.py --output validation-report.json
+
+      - name: Validate single repo
+        if: ${{ github.event.inputs.repo != '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/validate_constellation.py --repo "${{ github.event.inputs.repo }}" --output validation-report.json
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: validation-report.json
+          retention-days: 30

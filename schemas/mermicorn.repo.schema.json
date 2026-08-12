@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/cyber-lazer-mermicorn/mermicorn-grove/schemas/mermicorn.repo.schema.json",
+  "title": "mermicorn.repo.yaml",
+  "description": "Schema for mermicorn.repo.yaml — the canonical per-repo metadata file in the Mermicorn constellation. Every repository must contain a file at the root named mermicorn.repo.yaml that satisfies this schema.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "display_name",
+    "owner",
+    "lane",
+    "visibility",
+    "status",
+    "purpose"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version. Must be '1.0'.",
+      "enum": ["1.0"]
+    },
+    "id": {
+      "type": "string",
+      "description": "Repository slug (matches GitHub repo name).",
+      "pattern": "^[a-z0-9-]+$",
+      "minLength": 1
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Human-readable name for the repository.",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "string",
+      "description": "Owner of this repository. Must be 'cherry' or 'mermicorn'.",
+      "enum": ["cherry", "mermicorn"]
+    },
+    "lane": {
+      "type": "string",
+      "description": "Functional lane this repo belongs to.",
+      "enum": [
+        "identity-governance",
+        "ai-core",
+        "commerce",
+        "gaming",
+        "career",
+        "private-ops"
+      ]
+    },
+    "visibility": {
+      "type": "string",
+      "description": "GitHub visibility of the repository.",
+      "enum": ["public", "private"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Current lifecycle status of the repository.",
+      "enum": [
+        "foundation",
+        "active",
+        "first-proof",
+        "stable",
+        "archived",
+        "planned"
+      ]
+    },
+    "purpose": {
+      "type": "object",
+      "description": "Why this repo exists.",
+      "required": ["problem", "audience"],
+      "properties": {
+        "problem": {
+          "type": "string",
+          "description": "The specific problem this repo solves.",
+          "minLength": 10
+        },
+        "audience": {
+          "type": "array",
+          "description": "Who this repo is for.",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      }
+    },
+    "first_proof": {
+      "type": "object",
+      "description": "The first publishable artifact this repo will produce.",
+      "required": ["artifact", "status"],
+      "properties": {
+        "artifact": {
+          "type": "string",
+          "description": "Short name or description of the artifact.",
+          "minLength": 3
+        },
+        "status": {
+          "type": "string",
+          "enum": ["planned", "in-progress", "complete"]
+        }
+      }
+    },
+    "shared_services": {
+      "type": "object",
+      "description": "Shared constellation services this repo consumes.",
+      "properties": {
+        "boot":     { "type": "string" },
+        "memory":   { "type": "string" },
+        "token_efficiency": { "type": "string" },
+        "graphics": { "type": "string" },
+        "commerce": { "type": "string" }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "description": "What data is public vs private in this repo.",
+      "properties": {
+        "public":  { "type": "array", "items": { "type": "string" } },
+        "private": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
