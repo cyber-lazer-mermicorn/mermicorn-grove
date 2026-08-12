@@ -23,7 +23,7 @@
     },
     "id": {
       "type": "string",
-      "description": "Repository slug (matches GitHub repo name).",
+      "description": "Repository slug (matches GitHub repo name exactly).",
       "pattern": "^[a-z0-9-]+$",
       "minLength": 1
     },
@@ -34,12 +34,12 @@
     },
     "owner": {
       "type": "string",
-      "description": "Owner of this repository. Must be 'cherry' or 'mermicorn'.",
+      "description": "Responsible owner. 'cherry' = Cherry owns domain judgment. 'mermicorn' = shared constellation service.",
       "enum": ["cherry", "mermicorn"]
     },
     "lane": {
       "type": "string",
-      "description": "Functional lane this repo belongs to.",
+      "description": "Functional lane. identity-governance=Grove+profile. ai-core=shared AI services. commerce=commerce verticals. gaming=gaming/community. career=operator apprenticeship. private-ops=internal only.",
       "enum": [
         "identity-governance",
         "ai-core",
@@ -51,16 +51,17 @@
     },
     "visibility": {
       "type": "string",
-      "description": "GitHub visibility of the repository.",
+      "description": "GitHub repository visibility.",
       "enum": ["public", "private"]
     },
     "status": {
       "type": "string",
-      "description": "Current lifecycle status of the repository.",
+      "description": "Lifecycle status. foundation=structure only. building=active construction. first-proof=proof artifact in progress. active=shipping. stable=maintained. archived=retired. planned=not started.",
       "enum": [
         "foundation",
-        "active",
+        "building",
         "first-proof",
+        "active",
         "stable",
         "archived",
         "planned"
@@ -104,16 +105,16 @@
       "type": "object",
       "description": "Shared constellation services this repo consumes.",
       "properties": {
-        "boot":     { "type": "string" },
-        "memory":   { "type": "string" },
+        "boot":             { "type": "string" },
+        "memory":           { "type": "string" },
         "token_efficiency": { "type": "string" },
-        "graphics": { "type": "string" },
-        "commerce": { "type": "string" }
+        "graphics":         { "type": "string" },
+        "commerce":         { "type": "string" }
       }
     },
     "privacy": {
       "type": "object",
-      "description": "What data is public vs private in this repo.",
+      "description": "What data lives in public vs private surfaces of this repo.",
       "properties": {
         "public":  { "type": "array", "items": { "type": "string" } },
         "private": { "type": "array", "items": { "type": "string" } }
