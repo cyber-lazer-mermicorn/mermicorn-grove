@@ -1,14 +1,26 @@
 # Status
 
-**State:** OPERATING / hardening  
-**Last updated:** 2026-08-09
+**State:** OPERATING / constellation upgrade in progress  
+**Last updated:** 2026-08-14
 
 ## Truth
-- 16 public + 2 private repos
-- P0 hygiene applied on `mermicorn-commerce-ai` (DBs + `.env.ai` removed from main; gitignore hardened)
-- Pin/scope rules in `docs/PIN_AND_SCOPE.md`
 
-## Not done
-- History rewrite for purged blobs (optional, local with write access)
-- Wiki disable across public repos (manual settings)
-- Ravewear `assets/` still absent — package remains mockup_draft until assets land
+- **10 Vercel projects** under team cyber-lazerwrmicorn
+- **9 READY**, **1 ERROR** (`cherry-rental-engine` — single failed deploy; Git may not be pushing new builds)
+- Public product domains on `*.lazermermicorn.com` are live for portfolio, ravewear, commerce, deals, autos, coins, rift, games, learn
+- Stripe account connected (Hi-Class Home services); rental Stripe code is on GitHub `main` but not yet on a successful Vercel deploy
+
+## Canonical upgrade board
+
+See [docs/VERCEL-CONSTELLATION-UPGRADE.md](./docs/VERCEL-CONSTELLATION-UPGRADE.md)
+
+## Immediate blockers (human)
+
+1. Link + redeploy `cherry-rental-engine` from latest `main`
+2. Paste Supabase service role + Stripe keys into Vercel env
+3. Register Stripe webhook endpoint
+
+## Not claimed
+
+- Do not claim all ten projects were deeply rewritten in one pass
+- Do not claim rental is live until deploy state is READY
