@@ -1,26 +1,46 @@
-# Status
+# Mermicorn Grove — Status
 
-**State:** OPERATING / constellation upgrade in progress  
-**Last updated:** 2026-08-14
+_Last updated: 2026-08-29_
 
-## Truth
+## Constellation health
 
-- **10 Vercel projects** under team cyber-lazerwrmicorn
-- **9 READY**, **1 ERROR** (`cherry-rental-engine` — single failed deploy; Git may not be pushing new builds)
-- Public product domains on `*.lazermermicorn.com` are live for portfolio, ravewear, commerce, deals, autos, coins, rift, games, learn
-- Stripe account connected (Hi-Class Home services); rental Stripe code is on GitHub `main` but not yet on a successful Vercel deploy
+| Layer | Status | Notes |
+|---|---|---|
+| Registry | ✅ OPERATIONAL | `registry/tower.yml` canonical |
+| Tower of Babel | ✅ HARDENED | Machine layer, nervous system, architecture law, branch policy all live |
+| Showcase cluster | ✅ CRYSTALLIZED | 7 repos: README differentiated, Dependabot grouped, .gitignore hardened |
+| Grove / Constellation docs | ✅ SYNCED | This update |
+| GlacierEQ estate link | ⏳ PENDING | `CANONICAL_POSITION_RESOLVED` gate — awaiting estate-role resolution |
 
-## Canonical upgrade board
+## Tower of Babel gates (as of 2026-08-29)
 
-See [docs/VERCEL-CONSTELLATION-UPGRADE.md](./docs/VERCEL-CONSTELLATION-UPGRADE.md)
+| Gate | Status |
+|---|---|
+| IDENTITY_RESOLVED | ✅ PASS |
+| PROBLEM_VERIFIED | ✅ PASS |
+| TARGET_CONTRACT_FROZEN | ✅ PASS |
+| REGISTRY_CANONICAL | ✅ PASS |
+| QUALITY_CONTRACT_BOUND | ✅ PASS |
+| ARCHITECTURE_LAW_BOUND | ✅ PASS |
+| MACHINE_LAYER_PRESENT | ✅ PASS |
+| NERVOUS_SYSTEM_DOCUMENTED | ✅ PASS |
+| CANONICAL_POSITION_RESOLVED | ⏳ PENDING |
 
-## Immediate blockers (human)
+## Showcase cluster (as of 2026-08-29)
 
-1. Link + redeploy `cherry-rental-engine` from latest `main`
-2. Paste Supabase service role + Stripe keys into Vercel env
-3. Register Stripe webhook endpoint
+All 7 showcase repos received:
+- Differentiated `README.md` — distinct proof statement per repo
+- Grouped `dependabot.yml` — security-first, max 3 open PRs
+- Hardened `.gitignore` — `node_modules/`, `.env`, build artifacts excluded
 
-## Not claimed
+Repos: `langchain-showcase` · `openai-showcase` · `anthropic-showcase` ·
+`groq-showcase` · `stripe-showcase` · `supabase-showcase` · `vercel-showcase`
 
-- Do not claim all ten projects were deeply rewritten in one pass
-- Do not claim rental is live until deploy state is READY
+## Active verticals
+
+- 🦩 Rave wear — Drop 001 in design
+- ✈️ Travel deal lab — active
+- 🚗 Auto matchmaker — active
+- 🪙 Numismatic auction lab — active
+- 🎮 Wild Rift lab — active
+- 🏠 Cherry Rental Engine — private, in build
