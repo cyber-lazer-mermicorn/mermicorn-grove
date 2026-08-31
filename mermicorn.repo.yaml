@@ -5,7 +5,7 @@ display_name: Mermicorn Grove
 owner: cherry
 lane: identity-governance
 visibility: public
-status: foundation
+status: operational
 
 purpose:
   problem: Provide the canonical registry, architecture, and integration map so the constellation stays coherent without centralizing product ownership.
@@ -17,9 +17,11 @@ purpose:
 shared_services:
   boot: mermicorn-mega-boot
   memory: mermicorn-memory
-  token_efficiency: mermicorn-token-saver
   graphics: mermicorn-graphic-ai
   commerce: mermicorn-commerce-ai
+  control_surface: command-board
+  evidence: tower-of-babel
+  connector_map: constellation-map
 
 privacy:
   public:
@@ -30,7 +32,11 @@ privacy:
     - cross-link library
   private:
     - internal decision logs
+    - mermicorn-memory
+    - mermicorn-private-ops
+    - mermicorn-control-plane
 
 first_proof:
   artifact: master-manifest-and-cross-link-library
-  status: in-progress
+  status: current
+  notes: STATUS and README accuracy pass 2026-08-31; counts as ranges; private not implied public
