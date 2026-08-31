@@ -2,88 +2,80 @@
 
 **Canonical constellation registry, architecture, status, and integration map** for Cyber Lazer Mermicorn / Cherry.
 
-> Deals • Design • Games • Collectibles • Commerce • AI
+> Deals · Design · Games · Collectibles · Commerce · AI
 
-Cherry researches opportunities, identifies real value, creates compelling visual concepts, and turns scattered information into organized, market-ready products and recommendations.
+Cherry researches opportunities, creates visual concepts, and turns scattered information into market-ready products and recommendations.
 
-## What this project does
-Owns the integration state of the entire portfolio. It does not swallow the products — each vertical stays independently useful.
+## What this repo is
 
-## Who it is for
-Cherry, collaborators, and future employers reviewing the portfolio as a coherent system.
+Control plane and public map of the Grove. It does **not** own product code — each vertical stays independently useful.
 
 ## What exists today
-- Full 15-repository constellation live
-- Shared contract (`mermicorn.repo.yaml`)
-- Hierarchy, waves, and status tracking
-- Cross-linked library of every project
 
-## What is planned
-- Automated validation of manifests
-- Command Board seeding
-- First proof artifact tracking dashboard
-- Pinning of the six priority repositories
+- Large multi-repo constellation (~46 public, ~51 total including private)
+- Shared contract: `mermicorn.repo.yaml`
+- Status board: [STATUS.md](STATUS.md)
+- Cross-linked library of core projects (below)
+- Live control surface: [command-board](https://github.com/cyber-lazer-mermicorn/command-board)
+- Evidence portfolio: [tower-of-babel](https://github.com/cyber-lazer-mermicorn/tower-of-babel)
 
 ## What it does not claim
-This is not a product. It is the control plane and public map of the Grove.
 
-## First proof artifact
-Master manifest + status board + complete cross-link library (this repository).
+- Not a product UI by itself
+- Private repos (`mermicorn-memory`, `mermicorn-private-ops`, `mermicorn-control-plane`, `cherry-rental-engine`, etc.) are not public
+- Counts change; prefer ranges over fixed “N repos” slogans
 
-## Shared Mermicorn services
-Consumes and documents: mega-boot, memory, token-saver, graphic-ai, commerce-ai.
+## Core constellation library
 
-## Information that remains private
-Internal decision logs, unpublished strategy notes, and anything living in `mermicorn-memory` or `mermicorn-private-ops`.
+### Identity & command
 
----
+| Repository | Visibility |
+|------------|------------|
+| [cyber-lazer-mermicorn](https://github.com/cyber-lazer-mermicorn/cyber-lazer-mermicorn) | Public |
+| [mermicorn-grove](https://github.com/cyber-lazer-mermicorn/mermicorn-grove) (this) | Public |
+| [command-board](https://github.com/cyber-lazer-mermicorn/command-board) | Public |
+| [constellation-map](https://github.com/cyber-lazer-mermicorn/constellation-map) | Public |
+| [tower-of-babel](https://github.com/cyber-lazer-mermicorn/tower-of-babel) | Public |
 
-## Full Constellation Library
+### Shared operating core
 
-### Identity & Command
-| Repository | Visibility | Link |
-|------------|------------|------|
-| Profile | Public | [cyber-lazer-mermicorn](https://github.com/cyber-lazer-mermicorn/cyber-lazer-mermicorn) |
-| Grove (this) | Public | [mermicorn-grove](https://github.com/cyber-lazer-mermicorn/mermicorn-grove) |
+| Repository | Visibility |
+|------------|------------|
+| [mermicorn-mega-boot](https://github.com/cyber-lazer-mermicorn/mermicorn-mega-boot) | Public |
+| [mermicorn-memory](https://github.com/cyber-lazer-mermicorn/mermicorn-memory) | Private |
+| [mermicorn-graphic-ai](https://github.com/cyber-lazer-mermicorn/mermicorn-graphic-ai) | Public |
+| [mermicorn-commerce-ai](https://github.com/cyber-lazer-mermicorn/mermicorn-commerce-ai) | Public |
+| [mermicorn-private-ops](https://github.com/cyber-lazer-mermicorn/mermicorn-private-ops) | Private |
+| [mermicorn-control-plane](https://github.com/cyber-lazer-mermicorn/mermicorn-control-plane) | Private |
 
-### Shared AI Operating Core
-| Repository | Visibility | Link |
-|------------|------------|------|
-| Mega Boot | Public | [mermicorn-mega-boot](https://github.com/cyber-lazer-mermicorn/mermicorn-mega-boot) |
-| Memory | Private | [mermicorn-memory](https://github.com/cyber-lazer-mermicorn/mermicorn-memory) |
-| Token Saver | Public | [mermicorn-token-saver](https://github.com/cyber-lazer-mermicorn/mermicorn-token-saver) |
-| Graphic AI | Public | [mermicorn-graphic-ai](https://github.com/cyber-lazer-mermicorn/mermicorn-graphic-ai) |
-| Commerce AI | Public | [mermicorn-commerce-ai](https://github.com/cyber-lazer-mermicorn/mermicorn-commerce-ai) |
-| Private Ops | Private | [mermicorn-private-ops](https://github.com/cyber-lazer-mermicorn/mermicorn-private-ops) |
+### Commerce & verticals
 
-### Commerce Ventures
-| Repository | Visibility | Link |
-|------------|------------|------|
-| Ravewear Studio | Public | [cherry-ravewear-studio](https://github.com/cyber-lazer-mermicorn/cherry-ravewear-studio) |
-| Travel Deal Lab | Public | [cherry-travel-deal-lab](https://github.com/cyber-lazer-mermicorn/cherry-travel-deal-lab) |
-| Numismatic Auction Lab | Public | [cherry-numismatic-auction-lab](https://github.com/cyber-lazer-mermicorn/cherry-numismatic-auction-lab) |
-| Auto Matchmaker | Public | [cherry-auto-matchmaker](https://github.com/cyber-lazer-mermicorn/cherry-auto-matchmaker) |
+| Repository | Visibility |
+|------------|------------|
+| [cherry-ravewear-studio](https://github.com/cyber-lazer-mermicorn/cherry-ravewear-studio) | Public |
+| [cherry-travel-deal-lab](https://github.com/cyber-lazer-mermicorn/cherry-travel-deal-lab) | Public |
+| [cherry-numismatic-auction-lab](https://github.com/cyber-lazer-mermicorn/cherry-numismatic-auction-lab) | Public |
+| [cherry-auto-matchmaker](https://github.com/cyber-lazer-mermicorn/cherry-auto-matchmaker) | Public |
+| [cherry-rift-lab](https://github.com/cyber-lazer-mermicorn/cherry-rift-lab) | Public |
+| [cherry-chance-game-lab](https://github.com/cyber-lazer-mermicorn/cherry-chance-game-lab) | Public |
+| [cherry-operator-apprenticeship](https://github.com/cyber-lazer-mermicorn/cherry-operator-apprenticeship) | Public |
+| [cherry-rental-engine](https://github.com/cyber-lazer-mermicorn/cherry-rental-engine) | Private |
+| [cherry-portfolio](https://github.com/cyber-lazer-mermicorn/cherry-portfolio) | Public |
 
-### Gaming & Community
-| Repository | Visibility | Link |
-|------------|------------|------|
-| Rift Lab | Public | [cherry-rift-lab](https://github.com/cyber-lazer-mermicorn/cherry-rift-lab) |
-| Chance Game Lab | Public | [cherry-chance-game-lab](https://github.com/cyber-lazer-mermicorn/cherry-chance-game-lab) |
+Additional AI infrastructure and showcase repos exist under the same owner (gateway, observability, MCP hub, vendor showcases, etc.). See GitHub profile for the full list.
 
-### Career Development
-| Repository | Visibility | Link |
-|------------|------------|------|
-| Operator Apprenticeship | Public | [cherry-operator-apprenticeship](https://github.com/cyber-lazer-mermicorn/cherry-operator-apprenticeship) |
+## Core loop
 
-## Core Loop
 ```text
 Discover → Compare → Verify → Design → Package → Sell → Learn
 ```
 
-## Critical Design Rule
-Keep systems simple for Cherry. Simpler boot, smaller memory model, strong visual interfaces, guided workflows, clear next actions, domain examples, automation behind the scenes, progressive technical exposure.
+## Design rule
+
+Keep systems simple for Cherry: clear next actions, strong visuals, automation behind the scenes, progressive technical depth.
 
 Feel: *“I know what to do next, and the machine helps me do it well.”*
 
 ---
+
 *© Cherry. Original designs, branding, written materials, and commercial concepts are all rights reserved unless otherwise stated.*

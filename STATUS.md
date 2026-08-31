@@ -1,46 +1,66 @@
 # Mermicorn Grove — Status
 
-_Last updated: 2026-08-29_
+_Last updated: 2026-08-31_
+
+## Truth (do not under-claim)
+
+| Metric | Value |
+|--------|-------|
+| Account | `cyber-lazer-mermicorn` |
+| Public repos (approx) | ~46 |
+| Total visible (public + private) | ~51 |
+| Core verticals | Cherry labs + shared AI core |
+| Control surface | command-board (Next.js, live routes) |
+| Evidence portfolio | tower-of-babel (operational-alpha) |
+
+Private repos are **not** public. Do not imply they are reachable.
 
 ## Constellation health
 
 | Layer | Status | Notes |
-|---|---|---|
-| Registry | ✅ OPERATIONAL | `registry/tower.yml` canonical |
-| Tower of Babel | ✅ HARDENED | Machine layer, nervous system, architecture law, branch policy all live |
-| Showcase cluster | ✅ CRYSTALLIZED | 7 repos: README differentiated, Dependabot grouped, .gitignore hardened |
-| Grove / Constellation docs | ✅ SYNCED | This update |
-| GlacierEQ estate link | ⏳ PENDING | `CANONICAL_POSITION_RESOLVED` gate — awaiting estate-role resolution |
+|-------|--------|-------|
+| Registry (this repo) | Operational | Canonical map + shared contract |
+| Tower of Babel | Operational-alpha | Machine layer, gates, exhibits |
+| Command Board | Active build | Real `app/`, API routes, dashboard present |
+| Showcase / infra wave | Crystallized | 7 showcase + bottleneck/infra cluster |
+| GlacierEQ estate link | Pending | `CANONICAL_POSITION_RESOLVED` still open |
 
-## Tower of Babel gates (as of 2026-08-29)
+## Tower of Babel gates
 
 | Gate | Status |
-|---|---|
-| IDENTITY_RESOLVED | ✅ PASS |
-| PROBLEM_VERIFIED | ✅ PASS |
-| TARGET_CONTRACT_FROZEN | ✅ PASS |
-| REGISTRY_CANONICAL | ✅ PASS |
-| QUALITY_CONTRACT_BOUND | ✅ PASS |
-| ARCHITECTURE_LAW_BOUND | ✅ PASS |
-| MACHINE_LAYER_PRESENT | ✅ PASS |
-| NERVOUS_SYSTEM_DOCUMENTED | ✅ PASS |
-| CANONICAL_POSITION_RESOLVED | ⏳ PENDING |
+|------|--------|
+| IDENTITY_RESOLVED | Pass |
+| PROBLEM_VERIFIED | Pass |
+| TARGET_CONTRACT_FROZEN | Pass |
+| REGISTRY_CANONICAL | Pass |
+| QUALITY_CONTRACT_BOUND | Pass |
+| ARCHITECTURE_LAW_BOUND | Pass |
+| MACHINE_LAYER_PRESENT | Pass |
+| NERVOUS_SYSTEM_DOCUMENTED | Pass |
+| CANONICAL_POSITION_RESOLVED | Pending |
 
-## Showcase cluster (as of 2026-08-29)
+## Showcase cluster
 
-All 7 showcase repos received:
-- Differentiated `README.md` — distinct proof statement per repo
-- Grouped `dependabot.yml` — security-first, max 3 open PRs
-- Hardened `.gitignore` — `node_modules/`, `.env`, build artifacts excluded
+`langchain-showcase` · `openai-showcase` · `anthropic-showcase` · `groq-showcase` · `stripe-showcase` · `supabase-showcase` · `vercel-showcase`
 
-Repos: `langchain-showcase` · `openai-showcase` · `anthropic-showcase` ·
-`groq-showcase` · `stripe-showcase` · `supabase-showcase` · `vercel-showcase`
+Each has differentiated README, grouped Dependabot, hardened `.gitignore`.
 
 ## Active verticals
 
-- 🦩 Rave wear — Drop 001 in design
-- ✈️ Travel deal lab — active
-- 🚗 Auto matchmaker — active
-- 🪙 Numismatic auction lab — active
-- 🎮 Wild Rift lab — active
-- 🏠 Cherry Rental Engine — private, in build
+| Vertical | Repo | Notes |
+|----------|------|-------|
+| Rave wear | cherry-ravewear-studio | Drop 001 in design |
+| Travel deals | cherry-travel-deal-lab | Active |
+| Auto matchmaker | cherry-auto-matchmaker | Active |
+| Numismatic | cherry-numismatic-auction-lab | Active |
+| Wild Rift | cherry-rift-lab | Active |
+| Chance games | cherry-chance-game-lab | Active |
+| Rental engine | cherry-rental-engine | **Private**, in build |
+| Operator ladder | cherry-operator-apprenticeship | Active |
+
+## Priority next (code, not docs)
+
+1. Keep command-board runnable and honest about what panels actually work.
+2. Keep tower-of-babel validate/build green.
+3. Resolve or explicitly defer `CANONICAL_POSITION_RESOLVED`.
+4. Avoid claiming a fixed small constellation size — count drifts; state ranges.
