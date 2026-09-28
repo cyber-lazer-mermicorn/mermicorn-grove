@@ -29,6 +29,8 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 - **finish-the-job** — complete every mission end-to-end without excessive approval; verify live before claiming done
 - **operator-preferences** — have it use it; can do it do it; mission = full intermediate authority
 - **quality-continuous-upgrade** — 9+ quality bar; continuous discovery of upgrades; apply safe upgrades in-pass
+- **connector-leverage** — maximum power and efficiency with connected services; parallelize; ship/env/law playbooks
+- **automation-leverage** — encode recurring missions into CI, cron, and Automations so quality runs without re-prompting
 
 ### Rules of Engagement
 1. Every material change updates the relevant federation documents.
@@ -37,6 +39,8 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 4. Simple for Cherry: clear next action, guided workflow, progressive exposure.
 5. Mission given = full intermediate authority until the destination is true on the live system at **9+ quality**.
 6. Continuous discovery is part of every repo/skill pass — safe upgrades are applied without waiting to be asked.
+7. Connectors are force multipliers — use APIs end-to-end; never stall on dashboard paste when a connector can write.
+8. Recurring work gets automation (CI / cron / Automations) after it works once.
 
 ### Quality bar — 9+ (LOCKED)
 Works · Complete · Clear · Modern · Innovative where it pays · Verified · Owned · Discoverable
