@@ -40,3 +40,11 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 - Only interrupt when something is impossible without a secret or decision Cherry has not given.
 - Report after the fact: execution first, status second.
 - Stripe remains test-only unless Cherry expands scope.
+
+### Decision definition — mission equals full intermediate authority (LOCKED 2026-09-27)
+When Cherry gives a **mission**, that is approval for **every intermediate step** required to complete it.
+
+- Mission = destination. All steps between here and there are pre-approved.
+- Do not stop for micro-approvals (open door, start car, turn key, etc.).
+- Execute the chain end-to-end. Report when done or when blocked by a true impossibility (missing secret never provided, hard policy wall, or irreversible high-stakes choice outside the mission).
+- "Decision" that still requires interrupt: only a fork that changes the mission itself (different product, different scope, spend real money beyond stated bounds, destroy data, public irreversible action not implied by the mission).
