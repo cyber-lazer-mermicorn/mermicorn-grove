@@ -29,8 +29,8 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 - **finish-the-job** — complete every mission end-to-end without excessive approval; verify live before claiming done
 - **operator-preferences** — have it use it; can do it do it; mission = full intermediate authority
 - **quality-continuous-upgrade** — 9+ quality bar; continuous discovery of upgrades; apply safe upgrades in-pass
-- **connector-leverage** — connectors are force multipliers (1x→20x+); parallel fan-out; ship/env/law playbooks; control-plane memory; never dashboard-nag when API can write
-- **automation-leverage** — 20x tier: encode recurring missions into CI, cron, and Automations so quality runs without re-prompting
+- **connector-leverage** — connectors are force multipliers; **chaining** (pipe / fan-out / fan-in / bridge / seal) is how real multiplication happens; ship/law/tracked/campaign chains; never mid-chain handoff to the operator
+- **automation-leverage** — 20x tier: encode successful chains into CI, cron, and Automations
 
 ### Rules of Engagement
 1. Every material change updates the relevant federation documents.
@@ -39,8 +39,8 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 4. Simple for Cherry: clear next action, guided workflow, progressive exposure.
 5. Mission given = full intermediate authority until the destination is true on the live system at **9+ quality**.
 6. Continuous discovery is part of every repo/skill pass — safe upgrades are applied without waiting to be asked.
-7. Connectors are force multipliers — climb the ladder (write+verify → multi-connector chain → parallel fan-out → encode recurrence); never stall on dashboard paste when a connector can write.
-8. Recurring work gets automation (CI / cron / Automations) after it works once.
+7. Connectors are force multipliers — a single connector is a tool; **chained connectors are a system**. Climb 1x→20x+; never stall mid-chain for dashboard paste.
+8. Recurring successful chains get automation after they work once.
 
 ### Quality bar — 9+ (LOCKED)
 Works · Complete · Clear · Modern · Innovative where it pays · Verified · Owned · Discoverable
