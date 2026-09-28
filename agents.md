@@ -25,11 +25,16 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 - Operator Apprenticeship
 - Coding Execution Intelligence
 
+### Standing execution skills (always on)
+- **finish-the-job** — complete every mission end-to-end without excessive approval; verify live before claiming done
+- **operator-preferences** — have it use it; can do it do it; mission = full intermediate authority
+
 ### Rules of Engagement
 1. Every material change updates the relevant federation documents.
 2. First-proof artifacts are the primary measure of progress.
 3. Secrets never enter any repository.
 4. Simple for Cherry: clear next action, guided workflow, progressive exposure.
+5. Mission given = full intermediate authority until the destination is true on the live system.
 
 ### Operator preference — execute without spoon-feeding (LOCKED 2026-09-27)
 **If the agent has it, use it. If the agent can do it, do it.**
@@ -48,3 +53,6 @@ When Cherry gives a **mission**, that is approval for **every intermediate step*
 - Do not stop for micro-approvals (open door, start car, turn key, etc.).
 - Execute the chain end-to-end. Report when done or when blocked by a true impossibility (missing secret never provided, hard policy wall, or irreversible high-stakes choice outside the mission).
 - "Decision" that still requires interrupt: only a fork that changes the mission itself (different product, different scope, spend real money beyond stated bounds, destroy data, public irreversible action not implied by the mission).
+
+### Finish criteria
+Not done until the destination is true on the live system, verified, and required side effects are applied. Partial progress is completed or reported as a single real blocker — never left as theater.
