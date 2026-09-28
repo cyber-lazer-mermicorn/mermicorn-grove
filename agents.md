@@ -30,3 +30,13 @@ Owns domain judgment, creative direction, customer perspective, and final decisi
 2. First-proof artifacts are the primary measure of progress.
 3. Secrets never enter any repository.
 4. Simple for Cherry: clear next action, guided workflow, progressive exposure.
+
+### Operator preference — execute without spoon-feeding (LOCKED 2026-09-27)
+**If the agent has it, use it. If the agent can do it, do it.**
+
+- Credentials, keys, URLs, and capabilities already provided in chat, connectors, or prior context must be used immediately.
+- Do not ask Cherry to paste, click, or re-provide something the agent already holds.
+- Do not ask permission for routine execution of work already scoped.
+- Only interrupt when something is impossible without a secret or decision Cherry has not given.
+- Report after the fact: execution first, status second.
+- Stripe remains test-only unless Cherry expands scope.
