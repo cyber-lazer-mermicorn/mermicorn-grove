@@ -11,7 +11,7 @@ _Last updated: 2026-10-04_
 | Total visible (public + private) | ~51+ |
 | Core verticals | Cherry labs + shared AI core |
 | Control surface | command-board (Next.js, live routes) |
-| Evidence portfolio | tower-of-babel |
+| Evidence portfolio | tower-of-babel (green 2026-10-04) |
 
 Private repos are **not** public.
 
@@ -20,14 +20,14 @@ Private repos are **not** public.
 | Layer | Status | Notes |
 |-------|--------|-------|
 | Registry (this repo) | Operational | Canonical map + shared contract |
-| Tower of Babel | Operational-alpha | Gates mostly pass |
-| Command Board | Active | Soft health, Actions feed, Linear route, deployments panel |
+| Tower of Babel | **Green** | validate / generate / build / flagship ok — 20 floors |
+| Command Board | Active | Soft health, Actions feed, Linear route |
 | cherry-rental-engine | Live | Hawaiian fluid UI, Stripe+Supabase ready |
 | Showcase / infra wave | Crystallized | Showcase + bottleneck cluster |
 
 ## Priority next (code)
 
-1. command-board: Stytch E2E when keys present; productize observability panel.
-2. tower-of-babel: keep validate/build green; resolve or defer CANONICAL_POSITION.
-3. Vertical labs: cherry-portfolio is live; push next incomplete lab (travel / auto / ravewear) with real deploys.
-4. Avoid fixed small constellation size claims — use ranges.
+1. Vertical labs next: travel / auto / ravewear deploy readiness
+2. command-board: Stytch E2E when keys present
+3. Promote tower gated floors only with toolchain proof in CI
+4. Use ranges for repo counts — avoid fixed small claims
