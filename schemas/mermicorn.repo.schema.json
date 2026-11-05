@@ -19,7 +19,9 @@
     "schema_version": {
       "type": "string",
       "description": "Schema version. Must be '1.0'.",
-      "enum": ["1.0"]
+      "enum": [
+        "1.0"
+      ]
     },
     "id": {
       "type": "string",
@@ -35,7 +37,10 @@
     "owner": {
       "type": "string",
       "description": "Responsible owner. 'cherry' = Cherry owns domain judgment. 'mermicorn' = shared constellation service.",
-      "enum": ["cherry", "mermicorn"]
+      "enum": [
+        "cherry",
+        "mermicorn"
+      ]
     },
     "lane": {
       "type": "string",
@@ -52,11 +57,14 @@
     "visibility": {
       "type": "string",
       "description": "GitHub repository visibility.",
-      "enum": ["public", "private"]
+      "enum": [
+        "public",
+        "private"
+      ]
     },
     "status": {
       "type": "string",
-      "description": "Lifecycle status. foundation=structure only. building=active construction. first-proof=proof artifact in progress. active=shipping. stable=maintained. archived=retired. planned=not started.",
+      "description": "Lifecycle status. foundation=structure only. building=active construction. first-proof=proof artifact in progress. active=shipping. stable=maintained. archived=retired. planned=not started. operational and upgraded are legacy source-preserved states.",
       "enum": [
         "foundation",
         "building",
@@ -64,13 +72,18 @@
         "active",
         "stable",
         "archived",
-        "planned"
+        "planned",
+        "operational",
+        "upgraded"
       ]
     },
     "purpose": {
       "type": "object",
       "description": "Why this repo exists.",
-      "required": ["problem", "audience"],
+      "required": [
+        "problem",
+        "audience"
+      ],
       "properties": {
         "problem": {
           "type": "string",
@@ -80,7 +93,9 @@
         "audience": {
           "type": "array",
           "description": "Who this repo is for.",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "minItems": 1
         }
       }
@@ -88,7 +103,10 @@
     "first_proof": {
       "type": "object",
       "description": "The first publishable artifact this repo will produce.",
-      "required": ["artifact", "status"],
+      "required": [
+        "artifact",
+        "status"
+      ],
       "properties": {
         "artifact": {
           "type": "string",
@@ -97,7 +115,12 @@
         },
         "status": {
           "type": "string",
-          "enum": ["planned", "in-progress", "complete"]
+          "enum": [
+            "planned",
+            "in-progress",
+            "complete",
+            "current"
+          ]
         }
       }
     },
@@ -105,19 +128,39 @@
       "type": "object",
       "description": "Shared constellation services this repo consumes.",
       "properties": {
-        "boot":             { "type": "string" },
-        "memory":           { "type": "string" },
-        "token_efficiency": { "type": "string" },
-        "graphics":         { "type": "string" },
-        "commerce":         { "type": "string" }
+        "boot": {
+          "type": "string"
+        },
+        "memory": {
+          "type": "string"
+        },
+        "token_efficiency": {
+          "type": "string"
+        },
+        "graphics": {
+          "type": "string"
+        },
+        "commerce": {
+          "type": "string"
+        }
       }
     },
     "privacy": {
       "type": "object",
       "description": "What data lives in public vs private surfaces of this repo.",
       "properties": {
-        "public":  { "type": "array", "items": { "type": "string" } },
-        "private": { "type": "array", "items": { "type": "string" } }
+        "public": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "private": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     }
   }
