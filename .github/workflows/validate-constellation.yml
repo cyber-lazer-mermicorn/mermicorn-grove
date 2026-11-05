@@ -45,13 +45,13 @@ jobs:
       - name: Validate all repos
         if: ${{ github.event.inputs.repo == '' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CONSTELLATION_READ_TOKEN || secrets.GITHUB_TOKEN }}
         run: python tools/validate_constellation.py --output validation-report.json
 
       - name: Validate single repo
         if: ${{ github.event.inputs.repo != '' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CONSTELLATION_READ_TOKEN || secrets.GITHUB_TOKEN }}
         run: python tools/validate_constellation.py --repo "${{ github.event.inputs.repo }}" --output validation-report.json
 
       - name: Upload validation report
