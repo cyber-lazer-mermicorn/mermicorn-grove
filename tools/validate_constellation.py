@@ -104,7 +104,9 @@ def fetch_yaml(repo: str, token: str) -> tuple[dict | None, str | None]:
         return None, f"network error: {exc}"
 
     if resp.status_code == 404:
-        return None, "MISSING"
+        # GitHub deliberately returns 404 for private repositories inaccessible
+        # to this token. A 404 cannot prove that the manifest is absent.
+        return None, "HTTP 404: manifest absent OR repository inaccessible to workflow token"
     if resp.status_code == 403:
         return None, f"forbidden (check token scopes): {resp.status_code}"
     if resp.status_code != 200:
